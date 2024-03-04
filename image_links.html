@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        img {
+            width: 200px;
+            height: auto;
+        }
+        .gallery img {
+            margin: 5px;
+        }
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu li {
+            margin-bottom: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Learning Images & Links</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#menu">Menu</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Hello!! Learn with me how to include images and links in your website.<br> Images are one of the things that enhance the beauty of the website and so lets do this.</p>
+        <a href="https://www.example.com/technology"><img src="technology.jpg" alt="Technology"></a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p> Beautify your website using images</p>
+        <div class="gallery">
+            <a href="https://www.example.com/nature1"><img src="nature1.jpg" alt="Beach"><figcaption>Beach</figcaption></a>
+            <a href="https://www.example.com/nature2"><img src="nature2.jpg" alt="Nightview"><figcaption>Nightview</figcaption></a>
+            <a href="https://www.example.com/nature3"><img src="nature3.jpg" alt="Nature"> <figcaption>Forest</figcaption></a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <p><i>Have a look a how beautiful your website will look like if you include images as a list</i></p>
+        <div class="menu">
+            <ul>
+                <li><a href="https://www.example.com/food1"><img src="food1.jpg" alt="Food 1"> <br>African dish</a></li>
+                <li><a href="https://www.example.com/food2"><img src="food2.jpg" alt="Food 2"> <br>Breakfast</a></li>
+                <li><a href="https://www.example.com/food3"><img src="food3.jpg" alt="Food 3"><br> Desert</a></li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
